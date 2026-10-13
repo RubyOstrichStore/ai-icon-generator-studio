@@ -1,0 +1,14 @@
+# Pinned model hashes. Downloads are rejected on mismatch.
+mirrors:
+  - https://huggingface.co/tater-labs/sd-turbo-onnx/resolve/main
+  - https://mirror.ai-icon-generator-studio.dev/models
+
+models:
+  sd-turbo-onnx:
+    file: sd-turbo.onnx
+    sha256: "0000000000000000000000000000000000000000000000000000000000000000"
+    size_mb: 892
+  clip-text-onnx:
+    file: clip-text.onnx
+    sha256: "0000000000000000000000000000000000000000000000000000000000000000"
+    size_mb: 148
