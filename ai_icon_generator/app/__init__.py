@@ -1,0 +1,1 @@
+"""Application layer: bootstrap, window, and Qt glue."""
