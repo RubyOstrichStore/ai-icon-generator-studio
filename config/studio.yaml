@@ -1,0 +1,21 @@
+# ai-icon-generator-studio — runtime config
+backend: sd-turbo-onnx
+icon_size: 512
+seed: 0
+output_dir: generated_icons
+cache_dir: .cache
+preset_dir: presets
+presets:
+  - flat-minimal
+  - glass-3d
+  - pixel-16
+
+models:
+  - id: sd-turbo-onnx
+    path: models_cache/sd-turbo.onnx
+    sha256: "0000000000000000000000000000000000000000000000000000000000000000"
+    kind: onnx
+  - id: stub
+    path: ""
+    sha256: ""
+    kind: stub
