@@ -1,0 +1,1 @@
+"""Core engine: pipeline, orchestrator, cache, prompt compiler."""
